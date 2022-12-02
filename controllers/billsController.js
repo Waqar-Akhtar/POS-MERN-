@@ -13,7 +13,7 @@ export const getBillsController = async (req, res) => {
 }
 
 //for add
-export const addBillsController = async (req, res) => {
+export const addBillsController = async (req, res) => { 
 
     try {
 

@@ -23,7 +23,7 @@ export const loginController = async (req, res) => {
 }
 
 //for register
-export const registerController = async (req, res) => {
+export const registerController = async (req, res) => { 
     const {userId} = req.body
 
     try {

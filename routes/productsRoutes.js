@@ -3,7 +3,7 @@ import { getProductController, addProductController, updateProductController, de
 
 const productRouter = express.Router();
 
-productRouter.get("/getproducts", getProductController);
+productRouter.get("/getproducts", getProductController); 
 
 productRouter.post("/addproducts", addProductController);
 

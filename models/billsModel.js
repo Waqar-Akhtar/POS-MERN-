@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-//for create table into db
+//for create table into db 
 const billsSchema = new mongoose.Schema({
 
     customerName: { type: String, required: true },

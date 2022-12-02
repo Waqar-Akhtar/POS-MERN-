@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-//for create table into db
+//for create table into db 
 const userSchema = new mongoose.Schema({
 
     name: { type: String, required: true },

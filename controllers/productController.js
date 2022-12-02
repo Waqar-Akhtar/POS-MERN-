@@ -13,7 +13,7 @@ export const getProductController = async (req, res) => {
 }
 
 //for add
-export const addProductController = async (req, res) => {
+export const addProductController = async (req, res) => { 
 
     try {
 

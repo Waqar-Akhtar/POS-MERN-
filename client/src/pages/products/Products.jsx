@@ -23,7 +23,7 @@ const Products = () => {
       dispatch({
         type: "HIDE_LOADING",
       });
-      console.log(data);
+      // console.log(productData);
 
     } catch(error) {
       dispatch({
@@ -87,8 +87,8 @@ const Products = () => {
   ]
 
   const handlerSubmit = async (value) => {
-    //console.log(value);
-    if(editProduct === null) {
+    console.log(editProduct);
+    if(editProduct === false || null) {
       try {
         dispatch({
           type: "SHOW_LOADING",

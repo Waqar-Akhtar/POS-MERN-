@@ -42,7 +42,6 @@ export const updateProductController = async (req, res) => {
 //for delete
 export const deleteProductController = async (req, res) => {
     try {
-
         await Product.findOneAndDelete({_id: req.body.productId})
         res.status(200).json("Product Deleted!");
     } catch(error) {

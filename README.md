@@ -1,7 +1,6 @@
 POS SYSTEM
 ===
-## MERN STACK Application<br/>
-![Group 1](https://user-images.githubusercontent.com/40393613/178875220-72d94698-0fc2-4b1f-b8c2-51d10cb42ff1.png)
+
 
 ## Usage Guide
 
@@ -10,23 +9,26 @@ If you are a total beginner and want to use this repository to Elevate your Skil
 1. Open VSCODE or any code editor of your choice.
 
 2. In the Terminal Run this command:
-```javascript=16
+
 git clone <url of the repository>
 ```
 3. Once the prject is in the Code Editor, Run:
-```javascript=16
+
 npm install /npm i
 ```
 4. cd into Client folder and repeat step 3 and run:
-```javascript=16
-yarn start
+npm start/yarn start
+
 ```
 5. Open another Terminal and in the root folder run:
-```javascript=16
+
 npm run server
 ```
  <br/>
  6.Add your own ENV Config Files
+ create new file with the name of .env and then add your mongodb url and port with the same name  mention
+ PORT 
+MONGODB_URI
 
 
 ## NB:

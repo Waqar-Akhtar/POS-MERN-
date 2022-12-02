@@ -20,11 +20,11 @@ const Login = () => {
       dispatch({
         type: "HIDE_LOADING",
       });
+      
+      console.log(res.data)
       message.success("User Login Successfully!");
       localStorage.setItem("auth", JSON.stringify(res.data));
       navigate("/");
-      
-
     } catch(error) {
       dispatch({
         type: "HIDE_LOADING",

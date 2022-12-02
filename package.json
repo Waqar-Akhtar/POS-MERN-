@@ -9,7 +9,7 @@
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "author": "amPhilip",
+  "author": "Waqar Akhtar",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
